@@ -31,6 +31,15 @@ Ein kurzer Auszug für Streichquartett (2 Violinen, Viola, Violoncello) in D-Dur
 - [PDF herunterladen](/scores/string-quartet-excerpt.pdf)
 - [Quelldatei (.ly)](https://github.com/levino/orchestermusik/blob/main/lilypond/string-quartet-excerpt.ly)
 
+## Weihnachtslieder
+
+### Freu dich, Erd und Sternenzelt
+
+Traditionelles Weihnachtslied in G-Dur.
+
+- [PDF herunterladen](/scores/freu-dich-erd-und-sternenzelt.pdf)
+- [Quelldatei (.ly)](https://github.com/levino/orchestermusik/blob/main/lilypond/freu-dich-erd-und-sternenzelt.ly)
+
 ## Eigene Noten kompilieren
 
 Um die LilyPond-Quelldateien selbst zu kompilieren, benötigen Sie [LilyPond](https://lilypond.org/).
