@@ -22,3 +22,4 @@ yarn-error.log*
 # LilyPond temporary files
 *.midi
 *.mid
+lilypond/*.pdf
