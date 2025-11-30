@@ -11,17 +11,17 @@
     \key g \major
     \time 2/2
 
-    g4-3\downbow a-0 b c^\markup { ↓ } |
+    g4-3\downbow a-0 b c\upbow |
     d d d2 |
-    c4^\markup { ↓ } d e2-4 |
+    c4\upbow d e2-4 |
     d1-3 |
-    d4 d c^\markup { ↓ } c |
+    d4 d c\upbow c |
     b-1 b a2 |
-    b4 c4^\markup { ↓ } a2 |
+    b4 c4\upbow a2 |
     g1-3 |
-    b4-1 a b c^\markup { ↓ } |
+    b4-1 a b c\upbow |
     d2 a-0 |
-    b4-1 a b c^\markup { ↓ } |
+    b4-1 a b c\upbow |
     d2 a-0 |
     b e-4 |
     d4-3 b-1 a2-0 |
