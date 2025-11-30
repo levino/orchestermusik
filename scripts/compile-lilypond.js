@@ -140,12 +140,9 @@ function main() {
 
   // Check LilyPond installation
   if (!checkLilyPond()) {
-    console.log("");
-    console.log("⚠ Skipping compilation - LilyPond not available");
-    console.log(
-      "  The build will continue, but no PDFs will be generated."
-    );
-    process.exit(0); // Exit with success to not break the build
+    console.error("");
+    console.error("✗ Build failed - LilyPond is required");
+    process.exit(1);
   }
 
   console.log("");

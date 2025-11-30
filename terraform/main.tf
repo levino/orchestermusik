@@ -19,7 +19,7 @@ resource "cloudflare_pages_project" "orchestermusik" {
   }
 
   build_config {
-    build_command   = "npm run build"
+    build_command   = "apt-get update && apt-get install -y lilypond && npm run build"
     destination_dir = "build"
     root_dir        = ""
   }
