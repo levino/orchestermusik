@@ -5,9 +5,7 @@
   subtitle = ""
   composer = "Traditionell"
 }
-\paper {
-  indent = 0\mm
-}
+
 \score {
   \relative c'' {
     \key g \major
