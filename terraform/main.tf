@@ -11,17 +11,11 @@ resource "cloudflare_pages_project" "orchestermusik" {
       repo_name                     = split("/", var.github_repo)[1]
       production_branch             = var.production_branch
       pr_comments_enabled           = true
-      deployments_enabled           = true
-      production_deployment_enabled = true
-      preview_deployment_setting    = "custom"
-      preview_branch_includes       = ["dev", "feature/*", "claude/*"]
+      deployments_enabled           = false
+      production_deployment_enabled = false
+      preview_deployment_setting    = "none"
+      preview_branch_includes       = []
     }
-  }
-
-  build_config {
-    build_command   = "npm run build"
-    destination_dir = "build"
-    root_dir        = ""
   }
 
   deployment_configs {

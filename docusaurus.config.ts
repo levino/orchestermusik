@@ -11,7 +11,7 @@ const config: Config = {
     v4: true,
   },
 
-  url: 'https://levino.github.io',
+  url: 'https://orchestermusik.pages.dev',
   baseUrl: '/',
 
   organizationName: 'levino',
