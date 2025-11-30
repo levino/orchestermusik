@@ -141,8 +141,11 @@ function main() {
   // Check LilyPond installation
   if (!checkLilyPond()) {
     console.error("");
-    console.error("✗ Build failed - LilyPond is required");
-    process.exit(1);
+    console.error("⚠ Warning: LilyPond is not installed - skipping score compilation");
+    console.error("  Scores will not be available in this build.");
+    console.error("");
+    // Don't fail the build, just skip LilyPond compilation
+    return;
   }
 
   console.log("");
