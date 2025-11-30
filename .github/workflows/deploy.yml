@@ -50,7 +50,7 @@ jobs:
         uses: actions/github-script@v7
         with:
           script: |
-            const output = `${{ steps.deploy.outputs.deployment-url }}`;
+            const output = `${{ steps.deploy.outputs.pages-deployment-alias-url }}`;
             const body = `### 🚀 Preview Deployment\n\n` +
               `Your changes have been deployed to:\n` +
               `**${output}**\n\n` +
