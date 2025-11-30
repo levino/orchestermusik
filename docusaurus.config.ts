@@ -12,7 +12,7 @@ const config: Config = {
   },
 
   url: 'https://levino.github.io',
-  baseUrl: '/orchestermusik/',
+  baseUrl: '/',
 
   organizationName: 'levino',
   projectName: 'orchestermusik',
