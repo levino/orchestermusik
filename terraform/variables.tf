@@ -1,5 +1,5 @@
 variable "cloudflare_api_token" {
-  description = "Cloudflare API Token mit Pages-Berechtigungen"
+  description = "Cloudflare API token with Pages permissions"
   type        = string
   sensitive   = true
 }
@@ -10,19 +10,19 @@ variable "cloudflare_account_id" {
 }
 
 variable "project_name" {
-  description = "Name des Cloudflare Pages Projekts"
+  description = "Name of the Cloudflare Pages project"
   type        = string
   default     = "orchestermusik"
 }
 
 variable "github_repo" {
-  description = "GitHub Repository im Format 'owner/repo'"
+  description = "GitHub repository in 'owner/repo' format"
   type        = string
   default     = "levino/orchestermusik"
 }
 
 variable "production_branch" {
-  description = "Branch für Production Deployments"
+  description = "Branch for production deployments"
   type        = string
   default     = "main"
 }
