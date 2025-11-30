@@ -1,0 +1,11 @@
+# Cloudflare API Token (erstellen unter https://dash.cloudflare.com/profile/api-tokens)
+# Benötigte Berechtigungen: Cloudflare Pages:Edit
+cloudflare_api_token = "your-api-token-here"
+
+# Cloudflare Account ID (zu finden im Cloudflare Dashboard)
+cloudflare_account_id = "your-account-id-here"
+
+# Optional: Überschreibe die Standardwerte
+# project_name      = "orchestermusik"
+# github_repo       = "levino/orchestermusik"
+# production_branch = "main"
