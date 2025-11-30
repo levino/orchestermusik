@@ -13,7 +13,8 @@
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
-    "typecheck": "tsc"
+    "typecheck": "tsc",
+    "setup": "npm i &&allow-scripts run"
   },
   "dependencies": {
     "@docusaurus/core": "^3.9.0",
@@ -29,6 +30,8 @@
     "@docusaurus/module-type-aliases": "^3.9.0",
     "@docusaurus/tsconfig": "^3.9.0",
     "@docusaurus/types": "^3.9.0",
+    "@lavamoat/allow-scripts": "^3.4.1",
+    "@lavamoat/preinstall-always-fail": "^2.1.1",
     "typescript": "~5.6.2"
   },
   "browserslist": {
@@ -45,5 +48,13 @@
   },
   "engines": {
     "node": ">=20.0"
+  },
+  "lavamoat": {
+    "allowScripts": {
+      "@docusaurus/core>@docusaurus/babel>@babel/runtime-corejs3>core-js-pure": false,
+      "@docusaurus/core>core-js": false,
+      "@docusaurus/faster>@swc/core": false,
+      "@lavamoat/preinstall-always-fail": false
+    }
   }
 }
